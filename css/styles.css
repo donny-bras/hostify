@@ -3,6 +3,7 @@
 
   --color-accent: #ff3400;
   --color-body: #918ca4;
+  --color-body-darker: #5c5577;
   --color-border: #cccccc;
   --color-headings: #1b0760;
   --color-primary: #2584ff;
@@ -409,4 +410,53 @@ a {
 
 .media__image {
   margin-top: 1rem;
+}
+
+/* Quotes */
+
+.quote__text {
+  font-style: italic;
+  font-size: 3rem;
+  color: var(--color-body-darker);
+}
+
+.quote__text::before {
+  content: open-quote;
+}
+
+.quote__text::after {
+  content: close-quote;
+}
+
+.quote__author {
+  margin-bottom: 0;
+
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.quote__organization {
+  font-size: 2rem;
+  color: var(--color-headings);
+
+  opacity: 0.4;
+}
+
+.quote-line {
+  position: relative;
+  bottom: 6px;
+}
+
+@media screen and (min-width: 1024px) {
+  .quote {
+    font-size: 2rem;
+  }
+
+  .quote__author {
+    font-size: 2.4rem;
+  }
+
+  .quote__organization {
+    font-size: 1.6rem;
+  }
 }
