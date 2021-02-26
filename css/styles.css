@@ -1,6 +1,9 @@
 :root {
+  --border-radius: 30px;
+
   --color-accent: #ff3400;
   --color-body: #918ca4;
+  --color-border: #cccccc;
   --color-headings: #1b0760;
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
@@ -253,6 +256,46 @@ a {
 
 @media screen and (min-width: 1024px) {
   .btn {
+    font-size: 1.5rem;
+  }
+}
+
+/* Inputs */
+
+.input {
+  padding: 1.5rem 2.5rem;
+
+  color: var(--color-headings);
+
+  border: 1px solid var(--color-border);
+  border-radius: 30px;
+  outline: 0;
+}
+
+.input-group {
+  display: flex;
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+}
+
+.input-group .input {
+  flex-grow: 1;
+
+  border: 0;
+}
+
+.input-group .btn {
+  margin: 4px;
+}
+
+::placeholder {
+  font-size: 2rem;
+  color: #a7a7a8;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
     font-size: 1.5rem;
   }
 }
