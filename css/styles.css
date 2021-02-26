@@ -128,3 +128,33 @@ a {
     font-size: 1.2rem;
   }
 }
+
+/* Lists */
+.list {
+  padding-left: 0;
+
+  list-style: none;
+  color: var(--color-headings);
+}
+
+.list--inline .list__item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.list--tick {
+  padding-left: 3rem;
+
+  list-style-image: url("../images/tick.svg");
+}
+
+.list--tick .list__item {
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .list--tick .list__item {
+    padding-left: 0;
+  }
+}
