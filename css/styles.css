@@ -33,6 +33,7 @@ h2,
 h3 {
   margin-bottom: 1rem;
 
+  line-height: 1.1;
   color: var(--color-headings);
 }
 
@@ -723,5 +724,35 @@ a {
 
   .nav__item {
     border: 0;
+  }
+}
+
+/* Hero */
+
+.hero {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.hero__tagline {
+  margin: 2rem 0 5rem;
+
+  font-size: 2rem;
+  color: #b9c3cf;
+  letter-spacing: 1px;
+}
+
+.hero__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 0;
+  }
+
+  .hero__content {
+    align-self: center;
+
+    text-align: left;
   }
 }
