@@ -90,7 +90,7 @@ a {
 }
 
 .link-arrow::after {
-  content: "-->";
+  content: '-->';
 
   margin-left: 5px;
 
@@ -160,7 +160,7 @@ a {
 .list--tick {
   padding-left: 3rem;
 
-  list-style-image: url("../images/tick.svg");
+  list-style-image: url('../images/tick.svg');
 }
 
 .list--tick .list__item {
@@ -664,7 +664,7 @@ a {
 .collapsible--expanded .collapsible__content {
   max-height: 100vh;
 
-  opacity: 100%;
+  opacity: 1;
 }
 
 /* Blocks */
@@ -765,7 +765,7 @@ a {
 .nav.collapsible--expanded .nav__toggler {
   border-radius: 5px;
   box-shadow: 0 0 0 3px #666666;
-  opacity: 100%;
+  opacity: 1;
 }
 
 .nav__brand {
@@ -784,7 +784,7 @@ a {
 
     font-size: 1.6rem;
 
-    opacity: 100%;
+    opacity: 1;
   }
 
   .nav__item {
