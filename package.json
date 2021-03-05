@@ -1,0 +1,23 @@
+{
+  "name": "Hostify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerhiiUnhurian/hostify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerhiiUnhurian/hostify/issues"
+  },
+  "homepage": "https://github.com/SerhiiUnhurian/hostify#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
